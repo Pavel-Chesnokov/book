@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: SegoeWP;
+  src:url(../font/SegoeWP.ttf);
+}
+
+@font-face {
+  font-family: SegoeWPN;
+  src:url(../font/SegoeWPN.ttf);
+}
+
+body, html{
+  height: 100%;
+}
+
+.wrapper{
+  display: grid;
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto 0 auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 180px 20px 20px;
+
+}
+
+.header{
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: white;
+  grid-column: 1/3;
+
+}
+
+.banner{
+  background-color: red;
+  grid-column: 1/3;
+
+}
+
+.shop{
+  background-color: green;
+
+}
+
+.left_menu{
+  background-color: orange;
+
+}
+
+.footer{
+  background-color: black;
+  grid-column: 1/3;
+  grid-row: 4;
+
+}
+.top_menu ul {
+  margin: 0px;
+  padding: 5px;
+  font-family: SegoeWP;
+  font-size: 20px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: flex-end;
+  grid-gap: 30px;
+  background-color: #424242;
+}
+
+.middle_menu{
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr 1fr;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.search form{
+  background-color: #79b260;
+  margin: 0 70px 0 70px;
+  outline: none;
+
+}
+.search button{
+
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #79b260;
+  height: 40px;
+  width: 124px;
+  color: #FFF;
+  font-size: 23pt;
+  font-family: SegoeWPN;
+
+
+}
+.search button img{
+  margin-top: 7px;
+  float: left;
+}
+
+.search input {
+    margin: 0;
+    padding: 0;
+    border: 4px solid #79b260;
+    height: 40px;
+    width: 330px;
+    border-radius: 10px;
+
+}
+
+.nav ul{
+  margin: 0px;
+  padding: 5px;
+  font-family: SegoeWP;
+  font-size: 12pt;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(9,100px);
+  justify-content:space-between;
+  grid-gap: 5px;
+  background-color: #424242;
+}
