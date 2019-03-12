@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +9,24 @@
   <link rel="stylesheet" href="css/normalize.css">
   <title>Document</title>
 </head>
+
 <body>
   <div class="wrapper">
     <header class="header">
       <div class="top_menu">
         <ul>
-          <a href="test.html"><li>Sing in</li></a>
-          <a href="#"><li>My Account</li></a>
-          <a href="#"><li>Order Status</li></a>
-          <a href="#"><li>Help</li></a>
+          <a href="test.html">
+            <li>Sing in</li>
+          </a>
+          <a href="#">
+            <li>My Account</li>
+          </a>
+          <a href="#">
+            <li>Order Status</li>
+          </a>
+          <a href="#">
+            <li>Help</li>
+          </a>
         </ul>
       </div>
       <div class="middle_menu">
@@ -32,8 +42,18 @@
           </form>
         </div>
 
-        <div class="cart">You cart</div>
-        <div class="wishlist">Wishlist</div>
+        <div class="cart">
+          <img src="img\cart\Shape9.png" alt="">
+          <h4>You cart<span class="cart__items">(2 items)</span></h4>
+
+          <span class="cart__price">125.0$</span>
+          <button class="cart__bottom" type="submit" name="button">Checkout</button>
+
+        </div>
+        <div class="wishlist">
+          <img src="img\cart\Shape10.png" alt="">
+          <h4>Wishlist</h4>
+        </div>
 
       </div>
 
@@ -89,17 +109,621 @@
 
 
     <sidebar class="left_menu">
+      <h2>Categories</h2>
+      <ul>
+        <a href="#">
+          <h4>ALL</h4>
+        </a>
+        <ul>
+          <a href="#">
+            <h4>Fiction & Literature</h4>
+          </a>
+          <a href="#">
+            <li>Children</li>
+          </a>
+          <a href="#">
+            <li>Science Fiction</li>
+          </a>
+          <a href="#">
+            <li>Fantasy</li>
+          </a>
+          <a href="#">
+            <li>Mystery</li>
+          </a>
+          <a href="#">
+            <li>Romance</li>
+          </a>
+          <a href="#">
+            <li>Horror</li>
+          </a>
+          <a href="#">
+            <li>Poetry</li>
+          </a>
+          <a href="#">
+            <li>Literature</li>
+          </a>
+          <a href="#">
+            <li>Crime</li>
+          </a>
+        </ul>
+        <ul>
+          <a href="#">
+            <h4>Non - Fiction</h4>
+          </a>
+          <a href="#">
+            <li>Comic</li>
+          </a>
+          <a href="#">
+            <li>Cook</li>
+          </a>
+          <a href="#">
+            <li>Psychology</li>
+          </a>
+          <a href="#">
+            <li>Medical</li>
+          </a>
+          <a href="#">
+            <li>Art</li>
+          </a>
+          <a href="#">
+            <li>Photography</li>
+          </a>
+          <a href="#">
+            <li>Law</li>
+          </a>
+          <a href="#">
+            <li>History</li>
+          </a>
+          <a href="#">
+            <li>Business</li>
+          </a>
+          <a href="#">
+            <li>Computer</li>
+          </a>
+        </ul>
+        <ul>
+          <a href="#">
+            <h4>Other</h4>
+          </a>
+          <a href="#">
+            <li>Baby</li>
+          </a>
+          <a href="#">
+            <li>Sex</li>
+          </a>
+          <a href="#">
+            <li>Travel</li>
+          </a>
+          <a href="#">
+            <li>Science</li>
+          </a>
+          <a href="#">
+            <li>Sports</li>
+          </a>
+        </ul>
+      </ul>
+
+
+
+
+
+
 
     </sidebar>
 
-    <article class="shop">
-    </article>
+  <div class="tabs">
+      <input id="tab1" type="radio" name="tabs" checked>
+      <label for="tab1" title="Вкладка 1">Best sellers</label>
+
+      <input id="tab2" type="radio" name="tabs">
+      <label for="tab2" title="Вкладка 2">New Arrivals</label>
+
+      <input id="tab3" type="radio" name="tabs">
+      <label for="tab3" title="Вкладка 3">Used Books</label>
+
+      <input id="tab4" type="radio" name="tabs">
+      <label for="tab4" title="Вкладка 4">Special Offers</label>
+
+      <section id="content-tab1">
+          <article class="shop">
+            <div class="shop__book">
+              <img src="img\books\Layer 58.png" alt="">
+              <h2 class="book">The Hare With Amber Eyes</h2>
+              <span class="price">$50</span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 59.png" alt="">
+              <h2 class="book">The war of Art</h2>
+              <span class="price">$60</span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 60.png" alt="">
+              <h2 class="book"></h2>
+              <span class="price"></span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 61.png" alt="">
+              <h2 class="book"></h2>
+              <span class="price"></span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 106.png" alt="">
+              <h2 class="book"></h2>
+              <span class="price"></span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 107.png" alt="">
+              <h2 class="book">The Hare With Amber Eyes</h2>
+              <span class="price">200$</span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 108.png" alt="">
+              <h2 class="book"></h2>
+              <span class="price"></span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 109.png" alt="">
+              <h2 class="book"></h2>
+              <span class="price"></span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 110.png" alt="">
+              <h2 class="book"></h2>
+              <span class="price"></span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 133.png" alt="">
+              <h2 class="book"></h2>
+              <span class="price"></span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 134.png" alt="">
+              <h2 class="book">The Hare With Amber Eyes</h2>
+              <span class="price">220$</span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 135.png" alt="">
+              <h2 class="book"></h2>
+              <span class="price"></span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 136.png" alt="">
+              <h2 class="book"></h2>
+              <span class="price"></span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 137.png" alt="">
+              <h2 class="book"></h2>
+              <span class="price"></span>
+            </div>
+            <div class="shop__book">
+              <img src="img\books\Layer 106.png" alt="">
+              <h2 class="book"></h2>
+              <span class="price"></span>
+            </div>
+          </article>
+        </section>
+      <section id="content-tab2">
+        <article class="shop">
+          <div class="shop__book">
+            <img src="img\books\Layer 58.png" alt="">
+            <h2 class="book">The Hare With Amber Eyes</h2>
+            <span class="price">$50</span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 59.png" alt="">
+            <h2 class="book">The war of Art</h2>
+            <span class="price">$60</span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 60.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 61.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 106.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 107.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 108.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 109.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 110.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 133.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 134.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 135.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 136.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 137.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 106.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+        </article>
+      </section>
+      <section id="content-tab3">
+        <article class="shop">
+          <div class="shop__book">
+            <img src="img\books\Layer 58.png" alt="">
+            <h2 class="book">The Hare With Amber Eyes</h2>
+            <span class="price">$50</span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 59.png" alt="">
+            <h2 class="book">The war of Art</h2>
+            <span class="price">$60</span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 60.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 61.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 106.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 107.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 108.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 109.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 110.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 133.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 134.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 135.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 136.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 137.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 106.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+        </article>
+      </section>
+      <section id="content-tab4">
+        <article class="shop">
+          <div class="shop__book">
+            <img src="img\books\Layer 58.png" alt="">
+            <h2 class="book">The Hare With Amber Eyes</h2>
+            <span class="price">$50</span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 59.png" alt="">
+            <h2 class="book">The war of Art</h2>
+            <span class="price">$60</span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 60.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 61.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 106.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 107.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 108.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 109.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 110.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 133.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 134.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 135.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 136.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 137.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+          <div class="shop__book">
+            <img src="img\books\Layer 106.png" alt="">
+            <h2 class="book"></h2>
+            <span class="price"></span>
+          </div>
+        </article>
+      </section>
+</div>
 
 
 
-    <footer class="footer"></footer>
+
+
+    <footer class="footer">
+      <div class="footer__column">
+        <h4>Biography & True Stories</h4>
+        <ul>
+          <a href="">
+            <li>General</li>
+          </a>
+          <a href="">
+            <li>Diaries, Letters & Journals</li>
+          </a>
+          <a href="">
+            <li>Diaries, Letters & Journals</li>
+          </a>
+          <a href="">
+            <li>Memoirs</li>
+          </a>
+          <a href="">
+            <li>True Stories</li>
+          </a>
+          <a href="">
+            <li>Generic Exams</li>
+          </a>
+          <a href="">
+            <li>GK Titles</li>
+          </a>
+          <a href="">
+            <li>Medical Entrance</li>
+          </a>
+          <a href="">
+            <li>Other Entrance Exams</li>
+          </a>
+          <a href="">
+            <li>PG Entrance Examinations</li>
+          </a>
+          <a href="">
+            <li>Self-help Titles</li>
+          </a>
+          <a href="">
+            <li>Sociology</li>
+          </a>
+        </ul>
+
+      </div>
+      <div class="footer__column">
+        <h4>Professional & Reference</h4>
+        <ul>
+          <a href="">
+            <li>Academic and Reference</li>
+          </a>
+          <a href="">
+            <li>Business Trade</li>
+          </a>
+          <a href="">
+            <li>Engineering and Computer Science</li>
+          </a>
+          <a href="">
+            <li>Humanities, Social Sciences and Languages</li>
+          </a>
+          <a href="">
+            <li>Introduction to Computers</li>
+          </a>
+          <a href="">
+            <li>Science and Maths</li>
+          </a>
+          <a href="">
+            <li>Trade Business</li>
+          </a>
+          <a href="">
+            <li>English Language & Literature</li>
+          </a>
+          <a href="">
+            <li>English Language Teaching</li>
+          </a>
+          <a href="">
+            <li>Environment Awareness</li>
+          </a>
+          <a href="">
+            <li>Environment Protection</li>
+          </a>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h4>Earth Sciences</h4>
+        <ul>
+          <a href="">
+            <li>Earth Sciences</li>
+          </a>
+          <a href="">
+            <li>Geography</li>
+          </a>
+          <a href="">
+            <li>The Environment</li>
+          </a>
+          <a href="">
+            <li>Regional & Area Planning</li>
+          </a>
+          <a href="">
+            <li>Fantasy</li>
+          </a>
+          <a href="">
+            <li>Gay</li>
+          </a>
+          <a href="">
+            <li>Humorous</li>
+          </a>
+          <a href="">
+            <li>Interactive</li>
+          </a>
+          <a href="">
+            <li>Legal</li>
+          </a>
+          <a href="">
+            <li>Lesbian</li>
+          </a>
+          <a href="">
+            <li>Men'S Adventure</li>
+          </a>
+          <a href="">
+            <li>Men'S Adventure</li>
+          </a>
+          <a href="">
+            <li>Movie Or Television Tie-In</li>
+          </a>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h4>Mathematics</h4>
+        <ul>
+          <a href="">
+            <li>Algebra</li>
+          </a>
+          <a href="">
+            <li>Differential Equations</li>
+          </a>
+          <a href="">
+            <li>Discrete Mathematics</li>
+          </a>
+          <a href="">
+            <li>Fourier Analysis</li>
+          </a>
+          <a href="">
+            <li>Numerical Analysis</li>
+          </a>
+          <a href="">
+            <li>Probability</li>
+          </a>
+          <a href="">
+            <li>Statistical Methods/data Analysis</li>
+          </a>
+          <a href="">
+            <li>Stochastic And Random Processes</li>
+          </a>
+          <a href="">
+            <li>Topology</li>
+          </a>
+          <a href="">
+            <li>Statistics</li>
+          </a>
+          <a href="">
+            <li>Mathematics</li>
+          </a>
+        </ul>
+      </div>
+      <div class="footer__card">
+        <p> We accept all major Credit Card/Debit Card/Internet Banking </p>
+        <div class="card__img">
+          <img src="img\card\Layer207.png" alt="">
+          <img src="img\card\Layer208.png" alt="">
+          <img src="img\card\Layer209.png" alt="">
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p> Conditions of Use Privacy Notice © 2012-2013, Booksonline, Inc. or its affiliates </p>
+      </div>
+    </footer>
 
   </div>
 
 </body>
+
 </html>
